@@ -13,6 +13,7 @@
 		0491D7F22A8FDFF400DF7A2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0491D7F02A8FDFF400DF7A2F /* Main.storyboard */; };
 		0491D7F42A8FDFF600DF7A2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0491D7F32A8FDFF600DF7A2F /* Assets.xcassets */; };
 		0491D7F72A8FDFF600DF7A2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0491D7F52A8FDFF600DF7A2F /* LaunchScreen.storyboard */; };
+		04A4332C2A90D2E60086A3D1 /* MovieCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A4332B2A90D2E60086A3D1 /* MovieCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		0491D7F32A8FDFF600DF7A2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0491D7F62A8FDFF600DF7A2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0491D7F82A8FDFF600DF7A2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04A4332B2A90D2E60086A3D1 /* MovieCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				0491D7EA2A8FDFF400DF7A2F /* AppDelegate.swift */,
 				0491D7EC2A8FDFF400DF7A2F /* SceneDelegate.swift */,
 				0491D7EE2A8FDFF400DF7A2F /* ViewController.swift */,
+				04A4332B2A90D2E60086A3D1 /* MovieCollectionViewCell.swift */,
 				0491D7F02A8FDFF400DF7A2F /* Main.storyboard */,
 				0491D7F32A8FDFF600DF7A2F /* Assets.xcassets */,
 				0491D7F52A8FDFF600DF7A2F /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				0491D7EF2A8FDFF400DF7A2F /* ViewController.swift in Sources */,
 				0491D7EB2A8FDFF400DF7A2F /* AppDelegate.swift in Sources */,
 				0491D7ED2A8FDFF400DF7A2F /* SceneDelegate.swift in Sources */,
+				04A4332C2A90D2E60086A3D1 /* MovieCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,9 +306,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sadia.CollectionView-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -330,9 +337,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sadia.CollectionView-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
