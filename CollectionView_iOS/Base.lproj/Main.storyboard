@@ -74,6 +74,9 @@
                             <constraint firstItem="zNz-Wj-7M3" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="uD6-Qv-Hck"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="collectionView" destination="zNz-Wj-7M3" id="zUY-By-YxD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
